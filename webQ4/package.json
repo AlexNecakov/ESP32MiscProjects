@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "mangodb": "^1.0.0",
+    "mongodb": "^4.4.1",
+    "tingodb": "^0.6.1"
+  }
+}

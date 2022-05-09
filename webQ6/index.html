@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Backend Crawler</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="source.js"></script>
+  </head>
+  <body>
+  <div class = "title" id = "hbox">
+    <h1>Car Speed Monitor </h1>
+  </div>
+  <div class = "coolGraphic" id = "cG">
+    <!-- <form class="forms" action="index.html" method="post"> -->
+     <div class = "cg1" id = "cd">
+          <label for="Speed Set Point">Speed Set Point:</label><br>
+          <input type="number" id="speedsp" value="0.1">
+     </div>
+     <div class = "cg2" id = "cd2">
+       <label for="Stopping Set Point">Stopping Set Point:</label><br>
+       <input type="number" id="frontsp" value="20">
+     </div>
+
+    <!-- </form> -->
+
+  </div>
+  <div class = "graphs" >
+    <div class  = "g1" id  = "graph1"></div>
+    <div class  = "g2" id  = "graph2"></div>
+    <div class  = "g3" id  = "graph3"></div>
+
+  </div>
+  <div class = "button"  >
+  <img src="button2.png"  onclick="clicked()" id = "but" class = "bimg" alt="opps">
+   </div>
+  </body>
+</html>

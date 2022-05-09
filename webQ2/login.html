@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Login</title>
+  </head>
+  <body>
+    Username:
+    <input type="text" id="username" /><br />
+    Password:
+    <input type="password" id="password" /><br />
+    <input type="button" value="Login" id="submit" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      document.querySelector('#submit').addEventListener('click', submitForm);
+
+      function submitForm() {
+        const username = document.querySelector('#username').value;
+        const password = document.querySelector('#password').value;
+
+        axios.post('/login', {
+          username: username,
+          password: password
+        })
+        .then(function (response) {
+          if (response.data === 'Successfully logged in!') {
+            window.location.href = '/';
+          }
+        })
+      }
+    </script>
+  </body>
+</html>

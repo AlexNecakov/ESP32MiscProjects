@@ -1,0 +1,71 @@
+/* body {
+  background: rgb(242,27,90);
+  background: linear-gradient(90deg,  rgba(0,0,0,1) 0%,rgba(242,27,90,1) 30%, rgba(242,27,90,1) 60%, rgba(0,0,0,1) 100%);
+} */
+.graph{
+  background: rgb(0,27,90);
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  width: 80%;
+  height: 20%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.graph1{
+  background: rgb(0,27,90);
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  width: 80%;
+  height: 20%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.strip{
+  background: rgb(50,27,90);
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 80%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.mole{
+  background: rgb(50,27,0);
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 80%;
+  border: 5px solid rgb(0,0,0)
+}
+.substrip{
+  background: rgb(90,27,90);
+  position: absolute;
+  width: 50%;
+  height: 100%;
+
+}
+.substrip1{
+  left: 50%;
+  background: rgb(90,27,90);
+  position: absolute;
+  width: 50%;
+  height: 100%;
+
+}
+.temp{
+  position: relative;
+  align-content: center;
+  text-transform: uppercase;
+  color: rgb(255,255,255);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+
+  font-size:200px;
+}

@@ -1,0 +1,87 @@
+body {
+  /* background-color: #b1bfd8;
+  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%); */
+ background-image: url("back.gif"); /* The image used */
+ background-color: #cccccc; /* Used if the image is unavailable */
+ height: 500px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover
+}
+.title{
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  width: 60%;
+  height: 10%;
+  /* background-color: red; */
+}
+.coolGraphic{
+  position: absolute;
+  top: 27%;
+  right: 20% ;
+  width: 60%;
+  height: 5%;
+  /* background-color: green; */
+}
+.cg1{
+  position: absolute;
+  top: 5%;
+  right: 60% ;
+  width: 20%;
+  height: 90%;
+  /* background-color: red; */
+}
+.cg2{
+  position: absolute;
+  top: 5%;
+  right: 20% ;
+  width: 20%;
+  height: 90%;
+  /* background-color: red; */
+}
+.graphs{
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  width: 70%;
+  height: 60%;
+  /* background-color: blue; */
+}
+.g1{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  width: 70%;
+  height: 45%;
+  /* background-color: red; */
+}
+.g2{
+  position: absolute;
+  top: 52%;
+  right: 2%;
+  width: 70%;
+  height: 45%;
+  /* background-color: red; */
+}
+.g3{
+  position: absolute;
+  top: 2%;
+  right: 74%;
+  width: 25%;
+  height: 95%;
+  /* background-color: red; */
+}
+.button{
+  position: absolute;
+  top: 55%;
+  right: 2%;
+  width: 10%;
+  height: 15%;
+  /* background-color: grey; */
+}
+.bimg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

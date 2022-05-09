@@ -1,0 +1,79 @@
+body {
+  background-color: #b1bfd8;
+  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+
+}
+.control{
+  background: rgb(183, 227, 232);
+  position: absolute;
+  top: 75%;
+  right: 55%;
+  width: 40%;
+  height: 20%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.output{
+  background: rgb(183, 227, 232);
+  position: absolute;
+  top: 10%;
+  right: 55%;
+  width: 40%;
+  height: 60%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.accel{
+  background: rgb(100,100,90);
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 33%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.temp{
+  background: rgb(100,100,90);
+  position: absolute;
+  top: 33%;
+  right: 0%;
+  width: 100%;
+  height: 33%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.volt{
+  background: rgb(100,100,90);
+  position: absolute;
+  top: 66%;
+  right: 0%;
+  width: 100%;
+  height: 33%;
+  border: 5px solid rgb(0,0,0)
+
+}
+.camera{
+  background: rgb(0,0,0);
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  width: 31%;
+  height: 50%;
+  border: 5px solid rgb(0,0,0)
+
+}
+
+.backdrop{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  border: 5px solid rgb(0,0,0)
+}
+
+.vid{
+  width: 100%;
+  height: 100%;
+}

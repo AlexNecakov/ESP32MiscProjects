@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Window Sensor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src = "source.js"></script>
+  </head>
+  <body style="background: linear-gradient(90deg,  rgba(0,0,0,1) 0%,rgba(242,27,90,1) 50%, rgba(242,27,90,1) 50%, rgba(0,0,0,1) 100%)">
+
+  <br>
+  <img src="Hello.png" id = "controller"></img>
+  <img src="mole.png" id = "game"></img>
+  <div id="stupid_strip" class="strip">
+    <div id = "DistanceStrip" class ="substrip"></div>
+    <div id = "TempStrip" class ="substrip1"></div>
+  </div>
+  <div id="goodVeversion">
+    <div class="temp" id = "text_block">
+            <p id="temp" > 0&degC</p>
+    </div>
+    <div id="chartContainer1" class="graph1"></div>
+    <div id="chartContainer" class="graph"></div>
+  </div>
+  <div id="gameDiv" class="mole">
+      <canvas id="canvas" ></canvas>
+  </div>
+  </body>
+</html>

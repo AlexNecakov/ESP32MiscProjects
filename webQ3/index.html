@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Window Sensor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src = "source.js"></script>
+  </head>
+  <body style="background-color: coral;">
+  <img src="p1.gif" class = "backdrop"></img>  
+  <div class="control">
+    <h4>Wow You can Control your very own LED @2:19am</h1>
+    <input type="range" min="0" max="9" value="50" class="slider" id="myRange">
+  </div>
+  <div class= "output">
+    <div class="accel" id = "acceleration"></div>
+    <div class="temp" id = "Temp"></div>
+    <div class="volt" id = "bat"></div>
+  </div>
+  <div class= "camera">
+    <iframe id="video" class = "vid" src="http://group16.hopto.org:8080" width="480" height="360"></iframe>
+  </div>
+  </body>
+</html>

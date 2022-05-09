@@ -1,0 +1,21 @@
+body {
+  background-color: #b1bfd8;
+  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+
+}
+.accel{
+  background: rgb(100,100,90);
+  position: absolute;
+  top: 5%;
+  right: 0.5%;
+  width: 98%;
+  height: 50%;
+  border: 5px solid rgb(0, 0, 0);
+}
+.temp{
+  position: absolute;
+  top: 58%;
+  left: 2%;
+  width: 100%;
+  height: 33%;
+}
